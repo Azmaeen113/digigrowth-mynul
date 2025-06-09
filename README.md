@@ -1,73 +1,95 @@
-# Welcome to your Lovable project
+# Trendify Digital Growth Website
 
-## Project info
+A modern, responsive digital marketing agency website built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/c7475608-c19b-4801-90f5-0fdf12947108
+## 🚀 Live Demo
 
-## How can I edit this code?
+Visit the live website: [Trendify Digital Growth](https://azmaeen113.github.io/digigrowth-mynul/)
 
-There are several ways of editing your application.
+## 🛠️ Technologies Used
 
-**Use Lovable**
+- **React 18** - Modern React with hooks
+- **TypeScript** - Type-safe JavaScript
+- **Vite** - Fast build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Beautiful and accessible UI components
+- **Framer Motion** - Smooth animations
+- **React Router** - Client-side routing
+- **Lucide React** - Beautiful icons
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c7475608-c19b-4801-90f5-0fdf12947108) and start prompting.
+## 📦 Installation & Setup
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
 
-**Use your preferred IDE**
+### Steps
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Azmaeen113/digigrowth-mynul.git
+   cd digigrowth-mynul
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Follow these steps:
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+4. **Open your browser**
+   Navigate to `http://localhost:8080` to view the website.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🏗️ Build for Production
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+# Build the project
+npm run build
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+# Preview the production build
+npm run preview
 ```
 
-**Edit a file directly in GitHub**
+## 📁 Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # shadcn/ui components
+│   ├── Navbar.tsx      # Navigation component
+│   └── Footer.tsx      # Footer component
+├── pages/              # Page components
+│   ├── Index.tsx       # Home page
+│   ├── About.tsx       # About page
+│   ├── Services.tsx    # Services page
+│   └── Contact.tsx     # Contact page
+├── lib/                # Utility functions
+├── hooks/              # Custom React hooks
+└── main.tsx           # Application entry point
+```
 
-**Use GitHub Codespaces**
+## 🎨 Features
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- ✅ Fully responsive design
+- ✅ Modern UI with smooth animations
+- ✅ SEO optimized
+- ✅ Fast loading times
+- ✅ Accessible components
+- ✅ TypeScript for better development experience
+- ✅ Clean and maintainable code structure
 
-## What technologies are used for this project?
+## 🚀 Deployment
 
-This project is built with:
+The website is automatically deployed to GitHub Pages when changes are pushed to the main branch.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📄 License
 
-## How can I deploy this project?
+This project is licensed under the MIT License.
 
-Simply open [Lovable](https://lovable.dev/projects/c7475608-c19b-4801-90f5-0fdf12947108) and click on Share -> Publish.
+## 🤝 Contributing
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Contributions are welcome! Please feel free to submit a Pull Request.
